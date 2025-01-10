@@ -79,7 +79,7 @@ module "eks" {
   }
 
   # Enable both creation and management of the aws-auth ConfigMap
-  create_aws_auth_configmap = true
+  create_aws_auth_configmap = false
   manage_aws_auth_configmap = true
 
   aws_auth_users = [
