@@ -89,8 +89,8 @@ module "eks" {
       groups   = ["system:masters"]
     },
     {
-      userarn  = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:user/USERNAME"
-      username = "USERNAME"
+      userarn  = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:user/tmp.p-bdq8wr0iv77ham.wW8gn"
+      username = "tmp.p-bdq8wr0iv77ham.wW8gn"
       groups   = ["system:masters"]
     }
   ]
